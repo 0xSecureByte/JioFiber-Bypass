@@ -31,5 +31,5 @@ Works On:
 
 => Hence, Jio's Login Page will deny all IP's to login inside.
 
-"""This Tool is for EDUCATIONAL PURPOSES only, admin isn't responsible for jamming or collecting other's Data.
+"""This Tool is for EDUCATIONAL PURPOSES only, Admin(0xchirantan) isn't responsible for jamming or collecting other's Data.
 With Great Power Comes Great Responsibility."""
