@@ -1,0 +1,7 @@
+lxml
+bs4
+getpass
+pyfiglet
+random
+os
+requests
