@@ -7,7 +7,7 @@ Language: Python
 Works On:
     JioFiber Router.
 
-##      Jio-Jet Tool
+##      Jio-Jet Tool:
 => Using this tool we can get the following data:
     WAN IP,
     Connected Clients,
@@ -25,7 +25,7 @@ Works On:
 => This tool will get more updates soon.
 
 
-##      Hang-Jio Tool
+##      Hang-Jio Tool:
 
 => This tool can Jam the Router's Login Page.
 
@@ -33,3 +33,19 @@ Works On:
 
 """This Tool is for EDUCATIONAL PURPOSES only, Admin(0xchirantan) isn't responsible for jamming or collecting other's Data.
 With Great Power Comes Great Responsibility."""
+
+
+##      Installation:
+=> pip install -r requirements.txt
+
+##      Execution:
+=> python3 <file-name>.py
+
+##      Jio-Jet Tool:
+![image](https://user-images.githubusercontent.com/93367020/200156182-3dfcad04-84cd-4455-a60b-f17bbb7173c5.png)
+
+##      Hang-Jio Tool:
+![image](https://user-images.githubusercontent.com/93367020/200156245-4c550597-8b16-40a1-ae01-23719a7400ef.png)
+
+##      After Jamming:
+![image](https://user-images.githubusercontent.com/93367020/200156366-44959fc8-e598-4763-81a3-d9a830509d97.png)
