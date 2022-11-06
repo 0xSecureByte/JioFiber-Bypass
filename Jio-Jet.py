@@ -58,7 +58,7 @@ data = {
     'users.password': password,
     'button.login.users.dashboard': 'Login'
 }
-
+print(f"{green}Fetching Data...{end}")
 response = requests.post(f'http://{jio_lan_ip}/platform.cgi', headers=headers, cookies=cookies, data=data, verify=False)
 soup0 = bs(response.content, "html.parser")
 dom = etree.HTML(str(soup0))
