@@ -81,6 +81,6 @@ if(access_denied==''):
     print(f'{cyan}VERSION-NO: {end}',f'{green}[ {end}{red}', version,f'{end}{green} ]{end}')
     print(f'{cyan}MODEL-NO: {end}',f'{green}[ {end}{red}', model,f'{end}{green} ]{end}')
 else:
-    print(f'{red}{access_denied}{end}')
+    print(f'ROUTER RESPONSE: {red}{access_denied}{end}')
 
 response.close()
