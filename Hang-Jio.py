@@ -44,7 +44,7 @@ headers = {
 }
 
 
-for i in range(1,31):
+for i in range(1,5):
     password+=str(i)+str(2)
     data = {
         'thispage': 'index.html',
@@ -57,5 +57,5 @@ for i in range(1,31):
     password='somepass'
     response.close()
 
-print(f'{cyan}Jammed Successfully!!!{end}')
+print(f'{cyan}\nJammed Successfully!!!{end}')
 print(f'\nCREDITS:- {green}@0xchirantan{end}\n')
