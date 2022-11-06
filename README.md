@@ -39,7 +39,7 @@ With Great Power Comes Great Responsibility."""
 => pip install -r requirements.txt
 
 ##      Execution:
-=> python3 <file-name>.py
+=> python3 "file-name".py
 
 ##      Jio-Jet Tool:
 ![image](https://user-images.githubusercontent.com/93367020/200156182-3dfcad04-84cd-4455-a60b-f17bbb7173c5.png)
