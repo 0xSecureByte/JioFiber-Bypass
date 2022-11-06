@@ -42,7 +42,7 @@ With Great Power Comes Great Responsibility."""
 => python3 "file-name".py
 
 ##      Jio-Jet Tool:
-![image](https://user-images.githubusercontent.com/93367020/200156182-3dfcad04-84cd-4455-a60b-f17bbb7173c5.png)
+
 
 ##      Hang-Jio Tool:
 ![image](https://user-images.githubusercontent.com/93367020/200156245-4c550597-8b16-40a1-ae01-23719a7400ef.png)
